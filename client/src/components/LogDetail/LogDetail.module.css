@@ -1,0 +1,22 @@
+.content{
+    margin-top: 5px;
+}
+.content__item{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 5px;
+}
+.content__item img{
+    width: 1200px;
+    align-self: center;
+}
+.content__item:last-child{
+    flex-direction: column;
+    gap: 5px;
+}
+.content__header{
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
