@@ -7,7 +7,7 @@
  - source venv/bin/activate (если linux), call venv/Scripts/activate(если windows)
  - pip install -r requirements.txt
  - python manage.py runserver
-Клиентская часть будет работать на: http://localhost:5173/
+Клиентская часть будет работать на: http://localhost:5173/ (При клике на строки логов, будет открываться модальное окно с доп. данными)
 Серверная: http://localhost:8000/
 Эндпоинты: api/logs/ и api/logs/<id>
 Доступ к панели администратора: http://localhost:8000/admin/
